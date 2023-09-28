@@ -1,0 +1,133 @@
+/* COMMON */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+}
+
+a:hover {
+  color: #00bf78;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  background: url("./images/header/bg.jpg");
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  gap: 0px 28px;
+}
+
+.navigation-link {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-number {
+  font-size: 18px;
+  font-weight: 500;
+  gap: 8px 0;
+}
+
+.header-content {
+  min-height: 510px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-main {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.header-desc {
+  font-size: 20px;
+}
+
+.header-btn {
+  margin-top: 50px;
+  width: fit-content;
+  padding: 17px 30px;
+  background-color: #fb9475;
+  border-radius: 24px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-image {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+}
+
+.header-image img {
+  width: 524px;
+  height: 510px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.social img {
+  cursor: pointer;
+}
